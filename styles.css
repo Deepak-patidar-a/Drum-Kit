@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+  background-color: #1a3c40;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #417d7a;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: "Handlee", sans-serif;
+  font-size: calc(1.275rem + .3vw);
+}
+
+.title_logo {
+  width: 8%;
+  line-height: 4;
+}
+
+@media (max-width: 700px) {
+  .title_logo {
+    width: 12%;
+  }
+}
+
+@media (max-width: 450px) {
+  .title_logo {
+    width: 20%;
+  }
+}
+
+.w {
+  background-image: url("images/tom1.png");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.a {
+  background-image: url("images/tom3.png");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.s {
+  background-image: url("images/snare.png");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.d {
+  background-image: url("images/tom4.png");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.j {
+  background-image: url("images/tom2.png");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.k {
+  background-image: url("images/crash.png");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.l {
+  background-image: url("images/kick.png");
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #417d7a;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 10;
+  font-weight: 900;
+  color: #417d7a;
+  text-shadow: 3px 0 #EDE6DB;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
